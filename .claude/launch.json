@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "castle-web",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "node_modules/expo/bin/cli",
+        "start",
+        "--web",
+        "--port",
+        "8081",
+        "--offline",
+        "--clear"
+      ],
+      "env": {
+        "CI": "1",
+        "BROWSER": "none"
+      },
+      "port": 8081
+    }
+  ]
+}
